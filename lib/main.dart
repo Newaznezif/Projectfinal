@@ -28,7 +28,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('List of item'),
+        title: const Text('{ } List of Items'),
         actions: const [Icon(Icons.more_vert)],
       ),
       drawer: drawer(),
